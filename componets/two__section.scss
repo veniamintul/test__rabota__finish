@@ -1,0 +1,136 @@
+.two__section{
+    display: flex;
+    height: rem(808px);
+    background: #ffff;
+    align-items: center; 
+}
+
+.two__section__box{
+    margin-right: rem(145px);
+}
+
+.two__section__list{
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    top:-rem(60px);
+}
+
+.two__section__link:first-child{
+    margin-bottom: rem(20px); 
+}
+
+.two__section__link:nth-child(2){
+    margin-top: -rem(30px);
+}
+
+.two__section__link:last-child{
+    margin-bottom: 0;
+}
+
+.two__section__content{
+    display: flex;
+    flex-direction: column; 
+}
+
+.two__section__title{
+    font-style: normal;
+    font-weight: 600;
+    font-size: rem(24px);
+    line-height: rem(32px);
+    color: #000000;
+    margin-bottom: rem(10px);
+}
+
+.two__section__aside{
+    display: flex;
+    align-items: center;
+    /*justify-content:space-between;*/
+    margin-bottom: rem(20px);
+}
+
+
+.two__section__subtitle{
+    font-style: normal;
+    font-weight: normal;
+    font-size: rem(18px);
+    line-height: rem(32px);
+    color: #000000;
+}
+
+.tochca{
+    content:"";
+    border-radius: 50%;
+    height: rem(5px);
+    width: rem(5px);
+    background: #D3B47F;
+    position: relative;
+    margin-left: rem(30px);
+    margin-right: rem(30px);
+}
+
+.tochca::after,.tochca::before {
+    content:"";
+    display: block;
+    border-radius: 50%;
+    height: rem(5px);
+    width: rem(5px);
+    background: #D3B47F;
+    position: absolute;   
+}
+
+.tochca::before{
+   left:100%;
+   margin-left:rem(12px); 
+}
+
+.tochca::after{
+    right:100%;
+    margin-right:rem(12px); 
+ }
+
+ .two__section__line{
+     height: rem(1px);
+     width: rem(470px);
+     border: rem(1px) solid #E7E7E7;
+ }
+
+ .two__section__photo{
+     display: flex;
+     justify-content: center;
+     align-items: center;
+ }
+
+ .two__section__container__photo{
+    display: flex;
+    position: absolute;
+ }
+ .two__section__one,.two__section__two{
+     height: rem(485px);
+     width: rem(320px);
+     overflow: hidden;
+     
+ }
+
+ .two__section__one{
+     background: url('two__section/cuhna.png');
+     margin-right: rem(15px);
+     margin-top: 20%;
+     position: relative;
+     right:rem(25px);
+ }
+
+ .two__section__two{
+    background: url('two__section/lestnica.png'); 
+    margin-top: -2%;
+    position: relative;
+    right:rem(15px);
+ }
+
+ .two__section__border{
+     border: #D3B47F solid rem(2px);
+     width: rem(500px);
+     height: rem(470px);
+     position: relative;
+     bottom: rem(40px);
+ }

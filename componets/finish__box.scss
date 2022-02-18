@@ -1,0 +1,82 @@
+.finish{
+    height: rem(2170px);
+    width: 100%;
+    background:#fff; 
+}
+
+.contacts__finish__box{
+    display: flex;
+    position: relative;
+    margin-top: rem(350px);
+    
+}
+
+
+.contacts__finish__zagolovoc{
+    font-style: normal;
+    font-weight: bold;
+    font-size: rem(48px);
+    line-height: rem(88px);
+    color: #000000;
+    position: relative;
+    top: rem(20px);
+
+}
+
+.contacts__finish__aside{
+    margin-right: rem(100px);
+}
+
+
+.contacts__finish__list{
+    display: flex;
+    flex-direction: column;
+}
+
+.contacts__finish__link{
+    display: flex;
+    align-items: center;
+}
+
+
+
+
+
+
+.contacts__finish__circle{
+    width: rem(64px);
+    height: rem(64px);
+    border-radius: 50%;
+    background: #D3B47F;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.contacts__finish__box__one{
+    display: flex;
+    flex-direction: column;
+    margin-left:rem(16px) ;
+}
+
+
+.contacts__finish__content{
+    position: relative;
+    top:rem(20px);
+}
+
+.contacts__finish__title{
+    font-style: normal;
+    font-weight: normal;
+    font-size: rem(16px);
+    line-height: rem(32px);
+    color: #2E2E2E;
+}
+.contacts__finish__subtitle{
+    font-style: normal;
+    font-weight: 500;
+    font-size: rem(24px);
+    line-height: rem(32px); 
+    font-feature-settings: 'pnum' on, 'lnum' on;
+    color: #2E2E2E;
+}

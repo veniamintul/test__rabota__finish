@@ -1,0 +1,64 @@
+.finish {
+  height: 2170px;
+  width: 100%;
+  background: #fff; }
+
+.contacts__finish__box {
+  display: flex;
+  position: relative;
+  margin-top: 350px; }
+
+.contacts__finish__zagolovoc {
+  font-style: normal;
+  font-weight: bold;
+  font-size: 48px;
+  line-height: 88px;
+  color: #000000;
+  position: relative;
+  top: 20px; }
+
+.contacts__finish__aside {
+  margin-right: 100px; }
+
+.contacts__finish__list {
+  display: flex;
+  flex-direction: column; }
+
+.contacts__finish__link {
+  display: flex;
+  align-items: center; }
+
+.contacts__finish__circle {
+  width: 64px;
+  height: 64px;
+  border-radius: 50%;
+  background: #D3B47F;
+  display: flex;
+  justify-content: center;
+  align-items: center; }
+
+.contacts__finish__box__one {
+  display: flex;
+  flex-direction: column;
+  margin-left: 16px; }
+
+.contacts__finish__content {
+  position: relative;
+  top: 20px; }
+
+.contacts__finish__title {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 32px;
+  color: #2E2E2E; }
+
+.contacts__finish__subtitle {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 32px;
+  font-feature-settings: 'pnum' on, 'lnum' on;
+  color: #2E2E2E; }
+
+/*# sourceMappingURL=finish__box.css.map */

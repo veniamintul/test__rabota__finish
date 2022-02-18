@@ -1,0 +1,62 @@
+.slider__two {
+  height: 605px;
+  background: #3A4574;
+  display: flex;
+  flex-direction: column; }
+
+.slider__two__box {
+  display: flex;
+  justify-content: space-between;
+  align-items: center; }
+
+.slider__two__subject {
+  display: flex;
+  flex-direction: column; }
+
+.slider__two__text {
+  position: relative;
+  top: 35px; }
+
+.slider__two__title {
+  font-style: normal;
+  font-weight: bold;
+  font-size: 48px;
+  line-height: 88px;
+  color: #FFFFFF; }
+
+.slider__two__content {
+  width: 500px; }
+
+.slider__two__subtitle {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 32px;
+  color: #FFFFFF; }
+
+.slider__two__strelca {
+  display: flex;
+  position: relative;
+  top: 35px; }
+
+.slider__two__galery {
+  display: flex;
+  position: absolute;
+  margin-top: 250px; }
+
+.slider__two__photo__one, .slider__two__photo__two, .slider__two__photo__three {
+  overflow: hidden;
+  width: 970px;
+  height: 650px;
+  margin-right: 30px; }
+
+.slider__two__photo__one {
+  background: url("slider__two/slider__one.png"); }
+
+.slider__two__photo__two {
+  background: url("slider__two/slider__two.png"); }
+
+.slider__two__photo__three {
+  background: url("slider__two/slider__free.png"); }
+
+/*# sourceMappingURL=slider__two.css.map */

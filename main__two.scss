@@ -1,0 +1,261 @@
+$containerWidth: rem(1170px);
+$baseFontSize: rem(16px);
+
+
+
+@import "media";
+@import "layout";
+@import "normalize.css";   
+
+@import "componets/one__section";
+@import "componets/two__section";
+@import "componets/slider";
+@import "componets/four__section";
+@import "componets/slider__two";
+@import "componets/finish__box";
+@import "componets/questions";
+@import "componets/map";
+@import "componets/footer";
+
+
+@media (max-width: rem(1170px)) {
+  html {
+    font-size: rem(16px);
+  }
+  .container {
+    max-width: rem(700px);
+  }
+
+  .menu__title {
+    white-space: nowrap;
+  } 
+
+  .contacts {
+    white-space: nowrap;
+  }
+}
+
+
+
+@media (max-width: rem(768px)) {
+  html {
+    font-size: rem(13px);
+  }
+  .container {
+    max-width: rem(700px);
+    flex-direction: column;
+  }
+  .menu,
+  .contacts {
+    display: none;
+  }
+
+  .gamburger {
+    display: block;
+    width: rem(30px);
+    height: rem(30px);
+    position: relative;
+    right: 1rem;
+  }
+
+  .gamburger span {
+    background: #fff;
+  }
+
+  .header__mobile {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+
+    min-width: rem(700px);
+  }
+  //.glavnaya__pictures{
+  // }
+
+  .container__glavnaya {
+    display: flex;
+    flex-direction: column-reverse;
+    min-width: 0; //при адаптиве обнуляем мин ширину обертки
+    max-width: rem(450px); //фиксимальную делаем меньше следующего медиа запроса
+    width: auto;
+    //position: relative;
+  }
+
+  .glavnaya__preview {
+    display: block;
+    width: 34rem;
+  }
+
+  .glavnaya__pictures {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    //position: absolute;
+    margin-left: -1em;
+    height: rem(320px);
+    width: rem(320px);
+  }
+
+  .glavnaya__one {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    //position: absolute;
+    margin-left: 13em;
+  }
+  .glavnaya__text {
+    text-align: center;
+    transform: translate(-1em);
+  }
+  .glavnaya__title {
+    text-align: center;
+    transform: translate(-3em);
+  }
+  .glavnaya__button {
+    margin-left: 9em;
+    padding: rem(20px) rem(40px);
+  }
+  .glavnaya__spisok {
+    opacity: 0;
+  }
+
+  .one__gl{
+    position: relative;
+    left:rem(100px);
+  }
+}
+
+
+
+
+//  footer для планшета
+
+@media (max-width: rem(768px)) {
+  
+  html {
+    font-size: rem(13px);
+  } 
+  .container {
+    width: rem(700px);
+  }
+  .footer {
+    display: flex;
+    justify-content: space-between;
+    padding: rem(rem(20px));
+    align-items: center;
+    height: rem(110px);
+    flex-direction: row;
+  }
+
+  .footer__col {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .footer__contacts {
+    display: flex;
+  }
+
+  .footer__col--align--right {
+    display: flex;
+    justify-content: flex-end;
+  }
+
+  .socials {
+    margin-right: 3.125rem;
+    display: flex;
+    justify-content: flex-end;
+  }
+}
+
+
+
+
+//heder  и главная для телефона
+
+@media (max-width: rem(480px)) {
+  html {
+    font-size: rem(12px);
+  }
+  .header {
+    margin-left: rem(30px);
+  }
+
+  .container {
+    max-width: rem(480px);
+    min-width: rem(320px);
+    flex-direction: column;
+  }
+  .menu,
+  .contacts {
+    display: none;
+  }
+
+  .gamburger {
+    display: block;
+    position: relative;
+    right: 6rem;
+  }
+
+  .gamburger span {
+    background: #292929;
+  }
+
+  .header__mobile {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+
+    min-width: rem(510px);
+  }
+
+  .container__glavnaya {
+    flex-direction: column-reverse;
+    min-width: 0; //при адаптиве обнуляем мин ширину обертки
+    max-width: rem(200px);
+    width: auto;
+    margin-left: rem(150px);
+  }
+
+  .glavnaya__pictures {
+    width: 100%;
+  }
+
+  .glavnaya__spisok {
+    opacity: 0;
+  }
+}
+
+
+//footer для телефона
+@media (width: rem(480px)) {
+  html {
+    font-size: rem(12px);
+  }
+  .footer {
+    display: flex;
+    height: rem(150px);
+    justify-content: space-between;
+    padding: 1.25rem;
+    align-items: center;
+  }
+
+  .footer__col {
+    margin-top: -rem(20px);
+    align-items: center;
+  }
+
+  .socials {
+    margin-right: 3.125rem;
+    height: rem(24px);
+    margin-top: rem(20px);
+  }
+
+  .icon {
+    height: rem(24px);
+    width: rem(24px);
+  }
+}
+

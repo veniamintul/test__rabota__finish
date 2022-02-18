@@ -1,0 +1,84 @@
+.four__section{
+    height: rem(1930px);
+    background: #ffff;
+}
+
+.four__section__list{
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    top:rem(100px);
+}
+
+.four__section__link{
+    display: flex;
+    align-items: center;
+    margin-bottom: rem(30px);
+}
+
+.four__section__link:last-child{
+    margin-bottom: rem(0px); 
+}
+
+.four__section__link:nth-child(2){
+    display: flex;
+    flex-direction:row-reverse;
+}
+
+.four__section__photo__one,.four__section__photo__two,.four__section__photo__three{
+    
+    width: rem(1400px);
+    height: rem(560px);
+    overflow: hidden;
+}
+.four__section__photo__one{
+    background: url('four__section/meet.png');
+    margin-left: rem(30px);
+}
+
+.four__section__photo__two{
+    background: url('four__section/beer.png');
+    margin-right: rem(30px);
+}
+
+.four__section__photo__three{
+    background: url('four__section/alco.png'); 
+    margin-left: rem(30px);
+}
+
+
+
+.four__section__box{
+    display: flex;
+    flex-direction: column; 
+    justify-content: space-around;
+    position: relative;
+    top:rem(10px);
+}
+
+.four__section__text{
+    font-style: normal;
+    font-weight: bold;
+    font-size: rem(40px);
+    line-height: rem(88px);
+    color: #000000;
+}
+
+.four__section__line{
+    width: rem(108px);
+    height: rem(0px);
+    border: rem(2px) solid #D3B47F;
+}
+
+.four__section__subtitle{
+    margin-top: rem(20px);
+}
+
+
+.four__section__content{   
+   font-style: normal;
+   font-weight: normal;
+   font-size: rem(16px);
+   line-height: rem(32px);
+   color: #808080;
+}
